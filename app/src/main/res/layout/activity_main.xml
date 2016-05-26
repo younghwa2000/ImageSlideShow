@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.hs.emirim.sinyh104.imageslideshow.MainActivity">
+    tools:context="kr.hs.emirim.sinyh104.imageslideshow.MainActivity"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,24 +25,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_text_stop"/>
-
-        <ViewFlipper
-            android:id="@+id/view_flip"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
-                android:src="@drawable/강아지01"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-            <ImageView
-                android:src="@drawable/고양이"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-            <ImageView
-                android:src="@drawable/토끼"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </ViewFlipper>
-
     </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/view_flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/puppy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/rabbit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ViewFlipper>
+
 </LinearLayout>
