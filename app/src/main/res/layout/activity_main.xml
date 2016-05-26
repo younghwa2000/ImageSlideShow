@@ -30,6 +30,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
+                android:src="@drawable/강아지01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/고양이"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/토끼"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </ViewFlipper>
